@@ -1,0 +1,14 @@
+{
+  "serverInfo": {
+    "name": "CrashCourseTech Agent Server",
+    "version": "1.0.0"
+  },
+  "transport": {
+    "type": "sse",
+    "endpoint": "https://crashcoursetech-site-135378541186.us-central1.run.app/mcp"
+  },
+  "capabilities": {
+    "tools": true,
+    "resources": true
+  }
+}

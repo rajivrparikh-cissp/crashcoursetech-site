@@ -1,0 +1,5 @@
+{
+  "resource": "https://crashcoursetech-site-135378541186.us-central1.run.app/",
+  "authorization_servers": ["https://crashcoursetech-site-135378541186.us-central1.run.app"],
+  "scopes_supported": ["read", "write"]
+}

@@ -50,4 +50,22 @@ document.addEventListener('DOMContentLoaded', () => {
             card.style.background = 'var(--bg-card)';
         });
     });
+
+    // WebMCP Tool Discovery
+    if (navigator.modelContext && navigator.modelContext.provideContext) {
+        navigator.modelContext.provideContext({
+            tools: [
+                {
+                    name: "get_channel_info",
+                    description: "Get information about the CrashCourseTech YouTube channel",
+                    inputSchema: { type: "object", properties: {} },
+                    execute: async () => ({
+                        channelName: "CrashCourseTech",
+                        subscriberCount: "Over 50k",
+                        topics: ["AI", "Tech Strategy", "Training"]
+                    })
+                }
+            ]
+        });
+    }
 });

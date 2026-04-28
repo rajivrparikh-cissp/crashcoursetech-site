@@ -1,3 +1,16 @@
 {
-  "api-catalog": []
+  "linkset": [
+    {
+      "anchor": "https://crashcoursetech-site-135378541186.us-central1.run.app/",
+      "service-desc": [
+        { "href": "https://crashcoursetech-site-135378541186.us-central1.run.app/openapi.json" }
+      ],
+      "service-doc": [
+        { "href": "https://crashcoursetech-site-135378541186.us-central1.run.app/docs" }
+      ],
+      "status": [
+        { "href": "https://crashcoursetech-site-135378541186.us-central1.run.app/health" }
+      ]
+    }
+  ]
 }
